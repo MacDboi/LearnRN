@@ -12,6 +12,8 @@ const HomeScreen = ({navigation}) => {
       <Text>counter</Text></TouchableOpacity>
       <TouchableOpacity onPress={()=> navigation.navigate("string")}>
       <Text>stringMatching</Text></TouchableOpacity>
+      <TouchableOpacity onPress={()=> navigation.navigate("Box")}>
+      <Text>Box</Text></TouchableOpacity>
   </View>;
 };
 

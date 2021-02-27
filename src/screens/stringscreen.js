@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Text, View, StyleSheet, TextInput, len} from 'react-native';
+import {Text, View, StyleSheet, TextInput} from 'react-native';
 import { NavigationEvents } from 'react-navigation';
 
 const stringscreen = () => {
